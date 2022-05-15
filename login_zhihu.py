@@ -5,7 +5,6 @@ import  hmac ,json
 from bs4 import BeautifulSoup
 from hashlib import sha1
 
-
 def get_captcha(data,need_cap):
     ''' 处理验证码 '''
     if need_cap is False:
